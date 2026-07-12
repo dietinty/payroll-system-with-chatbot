@@ -1,0 +1,77 @@
+/* General page styling */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #D6D2D2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Login container */
+.login-container {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    width: 350px;
+}
+
+/* Title */
+.login-container h1 {
+    margin-bottom: 25px;
+    color: #141B41;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Form layout */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Labels */
+label {
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #141B41;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #7D573B;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: #306BAC;
+    outline: none;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #306BAC;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #56876D;
+}

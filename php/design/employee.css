@@ -1,0 +1,63 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #D6D2D2;
+    margin: 0;
+    padding: 20px;
+    color: #141B41;
+}
+
+.dashboard-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    max-width: 900px;
+    margin: auto;
+}
+
+h2, h3 {
+    color: #141B41;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.employee-table th, .employee-table td {
+    border: 1px solid #7D573B;
+    padding: 12px;
+    text-align: center;
+}
+
+.employee-table th {
+    background-color: #306BAC;
+    color: #fff;
+    font-weight: 600;
+}
+
+.employee-table td {
+    background-color: #f9f9f9;
+}
+
+/* Buttons */
+.btn {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: #fff;
+}
+
+.btn-primary { background-color: #306BAC; }
+.btn-primary:hover { background-color: #56876D; }
+
+.btn-secondary { background-color: #141B41; }
+.btn-secondary:hover { background-color: #306BAC; }
